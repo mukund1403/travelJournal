@@ -1,7 +1,7 @@
 import React from "react"
-import Navbar from "./components/Navbar"
+import Navbar from "./Navbar"
 import data from "./data"
-import Entries from "./components/Entries"
+import Entries from "./Entries"
 
 export default function App(){
     const entries = data.map((item) =>{
